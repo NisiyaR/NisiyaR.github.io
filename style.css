@@ -124,3 +124,14 @@ footer {
   color: white;
   text-align: center;
 }
+#Achievements .container
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#Achievements .container div:last-child
+{
+    width: 50%;
+}
